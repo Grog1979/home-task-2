@@ -9,13 +9,12 @@ while (n != 0)
   n = n / 10;
   i = i + 1;
 }
-int a = i;
-while (a > 3)
+Console.WriteLine($"цифр в числе: {i}");
+while ( i > 3)
 {
   x = x*10;
-  a = a - 1;
+  i = i - 1;
 }
-Console.WriteLine($"цифр в числе: {i}");
 if (i == 1 || i == 2)
   Console.WriteLine("нет третьего числа");
 else if (i > 2)
